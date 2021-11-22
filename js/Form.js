@@ -30,6 +30,7 @@ class Form {
     this.playButton.mousePressed(() => {
       this.input.hide();
       this.playButton.hide();
+          //$ é para concatenação de strings de múltiplas linhas
       var message = `
       Olá, ${this.input.value()}
       </br>espere o outro jogador entrar...`;
